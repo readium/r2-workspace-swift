@@ -1,21 +1,21 @@
 [submodule "r2-testapp-swift"]
 	path = r2-testapp-swift
-	url = git@github.com:readium/r2-testapp-swift.git
+url=https://github.com/readium/r2-testapp-swift.git
 [submodule "r2-shared-swift"]
 	path = r2-shared-swift
-	url = git@github.com:readium/r2-shared-swift.git
+url=https://github.com/readium/r2-shared-swift.git
 [submodule "r2-streamer-swift"]
 	path = r2-streamer-swift
-	url = git@github.com:readium/r2-streamer-swift.git
+url=https://github.com/readium/r2-streamer-swift.git
 [submodule "r2-navigator-swift"]
 	path = r2-navigator-swift
-	url = git@github.com:readium/r2-navigator-swift.git
+url=https://github.com/readium/r2-navigator-swift.git
 [submodule "readium-opds-swift"]
 	path = readium-opds-swift
-	url = git@github.com:readium/readium-opds-swift.git
+url=https://github.com/readium/readium-opds-swift.git
 [submodule "r2-lcp-swift"]
 	path = r2-lcp-swift
-	url = git@github.com:readium/r2-lcp-swift.git
+url=https://github.com/readium/r2-lcp-swift.git
 [submodule "r2-lcp-wrapper-swift"]
 	path = r2-lcp-wrapper-swift
-	url = git@github.com:readium/r2-lcp-wrapper-swift.git
+url=https://github.com/readium/r2-lcp-wrapper-swift.git
