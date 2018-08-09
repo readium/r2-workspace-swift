@@ -9,7 +9,7 @@ url=https://github.com/readium/r2-shared-swift.git
 url=https://github.com/readium/r2-streamer-swift.git
 [submodule "r2-navigator-swift"]
 	path = r2-navigator-swift
-url=https://github.com/eadium/r2-navigator-swift.git
+url=https://github.com/readium/r2-navigator-swift.git
 [submodule "readium-opds-swift"]
 	path = readium-opds-swift
 url=https://github.com/readium/readium-opds-swift.git
