@@ -1,0 +1,3 @@
+[submodule "r2-testapp-swift"]
+	path = r2-testapp-swift
+	url = git@github.com:readium/r2-testapp-swift.git
