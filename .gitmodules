@@ -1,9 +1,9 @@
 [submodule "r2-testapp-swift"]
 	path = r2-testapp-swift
-	url = git@github.com:readium/r2-testapp-swift.git
+url=https://github.com/readium/r2-testapp-swift.git
 [submodule "r2-lcp-swift"]
 	path = r2-lcp-swift
-	url = git@github.com:readium/r2-lcp-swift.git
+url=https://github.com/readium/r2-lcp-swift.git
 [submodule "r2-lcp-wrapper-swift"]
 	path = r2-lcp-wrapper-swift
-	url = git@github.com:readium/r2-lcp-wrapper-swift.git
+url=https://github.com/readium/r2-lcp-wrapper-swift.git
