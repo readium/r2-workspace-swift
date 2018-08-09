@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:r2-lcp-wrapper-swift/r2-lcp-wrapper-swift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:r2-lcp-swift/r2-lcp-swift.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:r2-testapp-swift/r2-testapp-swift.xcodeproj">
    </FileRef>
 </Workspace>
