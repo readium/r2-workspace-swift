@@ -9,7 +9,7 @@ This is one of the 4 Github branches in this workspace:
 ### dev/testapp
 You pick this branch if are an developer and a R2 contributor. You can get started quickly on the R2 Testapp and it's modules with this branch. We do appreciate any contribution, no matter how small it is, it makes a difference :) 
 
-1. git clone -b dev/testapp https://github.com/readium/r2-workspace-swift.git
+1. git clone --recurse-submodules -b dev/testapp https://github.com/readium/r2-workspace-swift.git
 2. ckeckout **dev/testapp** branch **including it's submodules**
 3. run **carthage update --platform ios** on r2-shared-swift
 4. run **carthage update --platform ios** on r2-streamer-swift
