@@ -8,7 +8,7 @@ This is one of the 4 Github branches in this workspace:
 ### int/testapp
 You pick this branch if are an integrator and all you need is to quickly get started with the R2 Testapp. 
 
-1. git clone -b int/testapp https://github.com/readium/r2-workspace-swift.git
+1. git clone --recurse-submodules -b int/testapp https://github.com/readium/r2-workspace-swift.git
 2. ckeckout **int/testapp** branch **including it's submodules**
 3. run **carthage update --platform ios** on r2-testapp-swift
 4. open **r2-workspace-swift.xcworkspace**
