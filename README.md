@@ -8,7 +8,7 @@ This is one of the 4 Github branches in this workspace:
 ### int/testapp-with-lcp
 You pick this branch if are an integrator and you would like to get started with the R2 Testapp supporting LCP. 
 
-1. clone https://github.com/readium/r2-workspace-swift.git
+1. git clone -b int/testapp-with-lcp https://github.com/readium/r2-workspace-swift.git
 2. ckeckout **int/testapp-with-lcp** branch **including it's submodules**
 3. run **carthage update --platform ios** on r2-lcp-swift
 3. run **carthage update --platform ios** on r2-testapp-swift
