@@ -28,15 +28,16 @@ You pick this branch if are an developer and a R2 contributor. You can get start
 **Cartfile should look like this:**
 
 ```
-github "edrlab/ZIPFoundation" "master"
-github "onevcat/Kingfisher" == 4.6.4
-github "jdg/MBProgressHUD" ~> 1.1.0
+github "weichsel/ZIPFoundation" == 0.9.8
+github "onevcat/Kingfisher" == 4.10.1
+github "jdg/MBProgressHUD"
 github "stephencelis/SQLite.swift" == 0.11.5
 github "tadija/AEXML" == 4.3.3
 github "swisspol/GCDWebServer" == 3.5.2
-github "krzyzanowskim/CryptoSwift" == 0.14.0
-github "cezheng/Fuzi" == 2.1.0
+github "krzyzanowskim/CryptoSwift" == 0.15.0
+github "cezheng/Fuzi" == 2.2.1
 github "dexman/Minizip"
+
 ```
 - [edrlab/ZIPFoundation](edrlab/ZIPFoundation) used in [ReadiumLCP](readium/r2-lcp-swift)
 - [onevcat/Kingfisher](onevcat/Kingfisher) used in [R2 Testapp](readium/r2-testapp-swift)
