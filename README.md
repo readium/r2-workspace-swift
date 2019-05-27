@@ -26,18 +26,18 @@ You pick this branch if are an integrator and all you need is to quickly get sta
 **Cartfile should look like this:**
 
 ```
-github "readium/r2-shared-swift" "develop"
-github "readium/r2-streamer-swift" "develop"
-github "readium/r2-navigator-swift" "develop"
-github "readium/readium-opds-swift" "develop"
-github "edrlab/ZIPFoundation" "master"
-github "onevcat/Kingfisher" == 4.6.4
-github "jdg/MBProgressHUD" ~> 1.1.0
+github "readium/r2-shared-swift" == 1.2.10
+github "readium/r2-streamer-swift" == 1.0.10
+github "readium/r2-navigator-swift" == 1.0.9
+github "readium/readium-opds-swift" == 1.0.7
+github "weichsel/ZIPFoundation" == 0.9.8
+github "onevcat/Kingfisher" == 4.10.1
+github "jdg/MBProgressHUD"
 github "stephencelis/SQLite.swift" == 0.11.5
 github "tadija/AEXML" == 4.3.3
 github "swisspol/GCDWebServer" == 3.5.2
-github "krzyzanowskim/CryptoSwift" == 0.14.0
-github "cezheng/Fuzi" == 2.1.0
+github "krzyzanowskim/CryptoSwift" == 0.15.0
+github "cezheng/Fuzi" == 2.2.1
 github "dexman/Minizip"
 ```
 - [edrlab/ZIPFoundation](edrlab/ZIPFoundation) used in [ReadiumLCP](readium/r2-lcp-swift)
