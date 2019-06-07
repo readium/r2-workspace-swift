@@ -16,20 +16,19 @@ You pick this branch if are an integrator and all you need is to quickly get sta
 
 ### Setup your workspace
 
-1. git clone --recurse-submodules -b int/testapp https://github.com/readium/r2-workspace-swift.git
-2. ckeckout **int/testapp** branch **including it's submodules**
-3. run **carthage update --platform ios** on r2-testapp-swift
-8. run **carting update** on r2-testapp-swift
+1. git clone --recurse-submodules -b int/testapp https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
+2. run **carthage update --platform ios** on r2-testapp-swift
+3. run **carting update** on r2-testapp-swift
 4. open **r2-workspace-swift.xcworkspace**
 5. run target **r2-testapp-swift (carthage)**
 
 **Cartfile should look like this:**
 
 ```
-github "readium/r2-shared-swift" == 1.2.10
-github "readium/r2-streamer-swift" == 1.0.10
-github "readium/r2-navigator-swift" == 1.0.9
-github "readium/readium-opds-swift" == 1.0.7
+github "readium/r2-shared-swift" == ?.?.?
+github "readium/r2-streamer-swift" == ?.?.?
+github "readium/r2-navigator-swift" == ?.?.?
+github "readium/readium-opds-swift" == ?.?.?
 github "weichsel/ZIPFoundation" == 0.9.8
 github "onevcat/Kingfisher" == 4.10.1
 github "jdg/MBProgressHUD"
@@ -40,13 +39,13 @@ github "krzyzanowskim/CryptoSwift" == 0.15.0
 github "cezheng/Fuzi" == 2.2.1
 github "dexman/Minizip"
 ```
-- [edrlab/ZIPFoundation](edrlab/ZIPFoundation) used in [ReadiumLCP](readium/r2-lcp-swift)
-- [onevcat/Kingfisher](onevcat/Kingfisher) used in [R2 Testapp](readium/r2-testapp-swift)
-- [jdg/MBProgressHUD](jdg/MBProgressHUD) used in [R2 Testapp](readium/r2-testapp-swift)
-- [stephencelis/SQLite.swift](stephencelis/SQLite.swift) used in [R2 Testapp](readium/r2-testapp-swift), [ReadiumLCP](readium/r2-lcp-swift)
-- [tadija/AEXML](tadija/AEXML) used in [R2Streamer](readium/r2-streamer-swift)
-- [swisspol/GCDWebServer](swisspol/GCDWebServer) used in [R2Streamer](readium/r2-streamer-swift)
-- [krzyzanowskim/CryptoSwift](krzyzanowskim/CryptoSwift) used in [ReadiumLCP](readium/r2-lcp-swift), [R2Streamer](readium/r2-streamer-swift)
-- [cezheng/Fuzi](cezheng/Fuzi) used in [ReadiumOPDS](readium/r2-opds-swift), [R2Streamer](readium/r2-streamer-swift)
-- [dexman/Minizip](dexman/Minizip) used in [R2Streamer](readium/r2-streamer-swift)
+- [weichsel/ZIPFoundation](https://github.com/weichsel/ZIPFoundation) used in [ReadiumLCP](https://github.com/readium/r2-lcp-swift)
+- [onevcat/Kingfisher](https://github.com/onevcat/Kingfisher) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift)
+- [jdg/MBProgressHUD](https://github.com/jdg/MBProgressHUD) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift)
+- [stephencelis/SQLite.swift](https://github.com/stephencelis/SQLite.swift) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift), [ReadiumLCP](https://github.com/readium/r2-lcp-swift)
+- [tadija/AEXML](https://github.com/tadija/AEXML) used in [R2Streamer](https://github.com/readium/r2-streamer-swift)
+- [swisspol/GCDWebServer](https://github.com/swisspol/GCDWebServer) used in [R2Streamer](https://github.com/readium/r2-streamer-swift)
+- [krzyzanowskim/CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) used in [ReadiumLCP](https://github.com/readium/r2-lcp-swift), [R2Streamer](/readium/r2-streamer-swift)
+- [cezheng/Fuzi](https://github.com/cezheng/Fuzi) used in [ReadiumOPDS](https://github.com/readium/r2-opds-swift), [R2Streamer](https://github.com/readium/r2-streamer-swift)
+- [dexman/Minizip](https://github.com/dexman/Minizip) used in [R2Streamer](https://github.com/readium/r2-streamer-swift)
 
