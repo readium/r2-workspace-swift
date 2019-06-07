@@ -76,10 +76,10 @@ You pick this branch if are an integrator and you would like to get started with
 **Cartfile should look like this:**
 
 ```
-github "readium/r2-shared-swift" "develop"
-github "readium/r2-streamer-swift" "develop"
-github "readium/r2-navigator-swift" "develop"
-github "readium/readium-opds-swift" "develop"
+github "readium/r2-shared-swift" == ?.?.?
+github "readium/r2-streamer-swift" == ?.?.?
+github "readium/r2-navigator-swift" == ?.?.?
+github "readium/readium-opds-swift" == ?.?.?
 github "weichsel/ZIPFoundation" == 0.9.8
 github "onevcat/Kingfisher" == 4.10.1
 github "jdg/MBProgressHUD"
