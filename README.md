@@ -16,63 +16,60 @@ In this workspace you will find 4 Github branches:
 ### int/testapp
 You pick this branch if are an integrator and all you need is to quickly get started with the R2 Testapp. 
 
-1. git clone --recurse-submodules -b int/testapp https://github.com/readium/r2-workspace-swift.git
-2. ckeckout **int/testapp** branch **including it's submodules**
-3. run **carthage update --platform ios** on r2-testapp-swift
-8. run **carting update** on r2-testapp-swift
+1. git clone --recurse-submodules -b int/testapp https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
+2. run **carthage update --platform ios** on r2-testapp-swift
+3. run **carting update** on r2-testapp-swift
 4. open **r2-workspace-swift.xcworkspace**
 5. run target **r2-testapp-swift (carthage)**
 
 **Cartfile should look like this:**
 
 ```
-github "readium/r2-shared-swift" "develop"
-github "readium/r2-streamer-swift" "develop"
-github "readium/r2-navigator-swift" "develop"
-github "readium/readium-opds-swift" "develop"
-github "edrlab/ZIPFoundation" "master"
-github "onevcat/Kingfisher" == 4.6.4
-github "jdg/MBProgressHUD" ~> 1.1.0
+github "readium/r2-shared-swift" == ?.?.?
+github "readium/r2-streamer-swift" == ?.?.?
+github "readium/r2-navigator-swift" == ?.?.?
+github "readium/readium-opds-swift" == ?.?.?
+github "weichsel/ZIPFoundation" == 0.9.8
+github "onevcat/Kingfisher" == 4.10.1
+github "jdg/MBProgressHUD"
 github "stephencelis/SQLite.swift" == 0.11.5
 github "tadija/AEXML" == 4.3.3
 github "swisspol/GCDWebServer" == 3.5.2
-github "krzyzanowskim/CryptoSwift" == 0.14.0
-github "cezheng/Fuzi" == 2.1.0
+github "krzyzanowskim/CryptoSwift" == 0.15.0
+github "cezheng/Fuzi" == 2.2.1
 github "dexman/Minizip"
 ```
 
 ### dev/testapp
 You pick this branch if are an developer and a R2 contributor. You can get started quickly on the R2 Testapp and it's modules with this branch. We do appreciate any contribution, no matter how small it is, it makes a difference :) 
 
-1. git clone --recurse-submodules -b dev/testapp https://github.com/readium/r2-workspace-swift.git
-2. ckeckout **dev/testapp** branch **including it's submodules**
-7. run **carthage update --platform ios** on r2-testapp-swift
-8. run **carting update** on r2-testapp-swift
-8. open **r2-workspace-swift.xcworkspace**
-9. run target **r2-testapp-swift (submodules)**
+1. git clone --recurse-submodules -b dev/testapp https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
+2. run **carthage update --platform ios** on r2-testapp-swift
+3. run **carting update** on r2-testapp-swift
+4. open **r2-workspace-swift.xcworkspace**
+5. run target **r2-testapp-swift (submodules)**
 
 **Cartfile should look like this:**
 
 ```
-github "edrlab/ZIPFoundation" "master"
-github "onevcat/Kingfisher" == 4.6.4
-github "jdg/MBProgressHUD" ~> 1.1.0
+github "weichsel/ZIPFoundation" == 0.9.8
+github "onevcat/Kingfisher" == 4.10.1
+github "jdg/MBProgressHUD"
 github "stephencelis/SQLite.swift" == 0.11.5
 github "tadija/AEXML" == 4.3.3
 github "swisspol/GCDWebServer" == 3.5.2
-github "krzyzanowskim/CryptoSwift" == 0.14.0
-github "cezheng/Fuzi" == 2.1.0
+github "krzyzanowskim/CryptoSwift" == 0.15.0
+github "cezheng/Fuzi" == 2.2.1
 github "dexman/Minizip"
 ```
 
 ### int/testapp-with-lcp
 You pick this branch if are an integrator and you would like to get started with the R2 Testapp supporting LCP. 
 
-1. git clone --recurse-submodules -b int/testapp-with-lcp  https://github.com/readium/r2-workspace-swift.git
-2. ckeckout **int/testapp-with-lcp** branch **including it's submodules**
+1. git clone --recurse-submodules -b int/testapp-with-lcp  https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
+2. copy **liblcp.a** to the root of **r2-lcp-wrapper-swift** directory
 3. run **carthage update --platform ios** on r2-testapp-swift
-8. run **carting update** on r2-testapp-swift
-4. copy **liblcp.a** to the root of **r2-lcp-wrapper-swift** directory
+4. run **carting update** on r2-testapp-swift
 5. open **r2-workspace-swift.xcworkspace**
 6. run target **r2-testapp-swift (carthage-with-lcp)**
 
@@ -83,14 +80,14 @@ github "readium/r2-shared-swift" "develop"
 github "readium/r2-streamer-swift" "develop"
 github "readium/r2-navigator-swift" "develop"
 github "readium/readium-opds-swift" "develop"
-github "edrlab/ZIPFoundation" "master"
-github "onevcat/Kingfisher" == 4.6.4
-github "jdg/MBProgressHUD" ~> 1.1.0
+github "weichsel/ZIPFoundation" == 0.9.8
+github "onevcat/Kingfisher" == 4.10.1
+github "jdg/MBProgressHUD"
 github "stephencelis/SQLite.swift" == 0.11.5
 github "tadija/AEXML" == 4.3.3
 github "swisspol/GCDWebServer" == 3.5.2
-github "krzyzanowskim/CryptoSwift" == 0.14.0
-github "cezheng/Fuzi" == 2.1.0
+github "krzyzanowskim/CryptoSwift" == 0.15.0
+github "cezheng/Fuzi" == 2.2.1
 github "dexman/Minizip"
 ```
 
@@ -99,30 +96,29 @@ github "dexman/Minizip"
 You pick this branch if are an developer and a R2 contributor. You can get started quickly on the R2 Testapp and it's modules including LCP with this branch. We do appreciate any contribution, no matter how small it is, it makes a difference :) 
 
 
-1. git clone --recurse-submodules -b dev/testapp-with-lcp https://github.com/readium/r2-workspace-swift.git
-2. ckeckout **dev/testapp-with-lcp** branch **including it's submodules**
+1. git clone --recurse-submodules -b dev/testapp-with-lcp https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
+2. copy **liblcp.a** to the root of **r2-lcp-wrapper-swift** directory
 3. update Cartfile (see below)
-7. run **carthage update --platform ios** on r2-testapp-swift
-8. run **carting update** on r2-testapp-swift
-8. copy **liblcp.a** to the root of **r2-lcp-wrapper-swift** directory
-8. open **r2-workspace-swift.xcworkspace**
-9. run target **r2-testapp-swift (submodules-with-lcp)**
+4. run **carthage update --platform ios** on r2-testapp-swift
+5. run **carting update** on r2-testapp-swift
+6. open **r2-workspace-swift.xcworkspace**
+7. run target **r2-testapp-swift (submodules-with-lcp)**
 
 **Cartfile should look like this:**
 
 ```
-github "edrlab/ZIPFoundation" "master"
-github "onevcat/Kingfisher" == 4.6.4
-github "jdg/MBProgressHUD" ~> 1.1.0
+github "weichsel/ZIPFoundation" == 0.9.8
+github "onevcat/Kingfisher" == 4.10.1
+github "jdg/MBProgressHUD"
 github "stephencelis/SQLite.swift" == 0.11.5
 github "tadija/AEXML" == 4.3.3
 github "swisspol/GCDWebServer" == 3.5.2
-github "krzyzanowskim/CryptoSwift" == 0.14.0
-github "cezheng/Fuzi" == 2.1.0
+github "krzyzanowskim/CryptoSwift" == 0.15.0
+github "cezheng/Fuzi" == 2.2.1
 github "dexman/Minizip"
 ```
 **Dependencies and the modules they are used in**
-- [edrlab/ZIPFoundation](https://github.com/edrlab/ZIPFoundation) used in [ReadiumLCP](https://github.com/readium/r2-lcp-swift)
+- [weichsel/ZIPFoundation](https://github.com/weichsel/ZIPFoundation) used in [ReadiumLCP](https://github.com/readium/r2-lcp-swift)
 - [onevcat/Kingfisher](https://github.com/onevcat/Kingfisher) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift)
 - [jdg/MBProgressHUD](https://github.com/jdg/MBProgressHUD) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift)
 - [stephencelis/SQLite.swift](https://github.com/stephencelis/SQLite.swift) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift), [ReadiumLCP](https://github.com/readium/r2-lcp-swift)
