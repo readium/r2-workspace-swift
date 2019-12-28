@@ -17,7 +17,7 @@ You pick this branch if are an developer and a R2 contributor. You can get start
 ### Setup your workspace
 
 1. git clone --recurse-submodules -b dev/testapp-with-lcp https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
-2. copy **liblcp.a** to the root of **r2-lcp-wrapper-swift** directory
+2. add your lcp dependency to the cartfile
 3. update Cartfile (see below)
 4. run **carthage update --platform ios** on r2-testapp-swift
 5. run **carting update** on r2-testapp-swift
