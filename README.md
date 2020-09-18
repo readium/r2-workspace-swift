@@ -11,13 +11,13 @@ You pick this branch if are an integrator and you would like to get started with
 ### Prerequisite
 - install/update [Carthage](https://github.com/Carthage/Carthage)
 - install/update [Carting](https://github.com/artemnovichkov/Carting) 
-- Xcode 10.x
-- Swift 4.2
+- Xcode 11.x
+- Swift 5.3
 
 ### Setup your workspace
 
 1. git clone --recurse-submodules -b int/testapp-with-lcp  https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
-2. add your lcp dependency to the cartfile
+2. **contact EDRLab for lcplib info**
 3. run **carthage update --platform ios** on r2-testapp-swift
 4. run **carting update** on r2-testapp-swift
 5. open **r2-workspace-swift.xcworkspace**
