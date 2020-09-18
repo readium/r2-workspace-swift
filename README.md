@@ -11,8 +11,8 @@ You pick this branch if are an integrator and all you need is to quickly get sta
 ### Prerequisite
 - install/update [Carthage](https://github.com/Carthage/Carthage)
 - install/update [Carting](https://github.com/artemnovichkov/Carting) 
-- Xcode 10.x
-- Swift 4.2
+- Xcode 11.x
+- Swift 5.3
 
 ### Setup your workspace
 
