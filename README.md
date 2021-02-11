@@ -30,7 +30,7 @@ Warning: the content of this branch cannot be built without adding a pre-compile
 
 [https://github.com/readium/r2-workspace-swift/tree/int/testapp-with-lcp](https://github.com/readium/r2-workspace-swift/tree/int/testapp-with-lcp)
 
-### Steps
+#### Steps
 
 - Checkout r2-testapp-swift
 - Checkout  r2-lcp-swift
