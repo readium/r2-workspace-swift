@@ -30,10 +30,22 @@ Warning: the content of this branch cannot be built without adding a pre-compile
 
 [https://github.com/readium/r2-workspace-swift/tree/int/testapp-with-lcp](https://github.com/readium/r2-workspace-swift/tree/int/testapp-with-lcp)
 
+### Steps
+
+- Checkout r2-testapp-swift
+- Checkout  r2-lcp-swift
+- Add the line provided by EDRLab to the r2-lcp-swift Cardfile
+- Run " carthage --use-xcframeworks --platform iOS" on both modules
+- Open your workspace and add the r2-lcp-swift project to it
+- Replace all .frameworks as .xcframework inside r2-lcp-swift
+- Open the r2-testapp-lcp target and add ReadiumLCP and R2LCPFramework as dependencies.
+
 ### dev/testapp-with-lcp
 You pick this branch if are an developer and a R2 contributor. You can get started quickly on the R2 Testapp and it's modules including LCP with this branch. We do appreciate any contribution, no matter how small it is, it makes a difference :) 
 
 Warning: the content of this branch cannot be built without adding a pre-compiled Readium LCP module. Read below about how you can obtain it.
+
+See also the integration steps detailed in the previous section. 
 
 [https://github.com/readium/r2-workspace-swift/tree/dev/testapp-with-lcp](https://github.com/readium/r2-workspace-swift/tree/dev/testapp-with-lcp)
 
