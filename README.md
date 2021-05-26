@@ -5,50 +5,22 @@ This workspace is one of the ways you can get started with the R2 Swift Projects
 
 This is one of the 4 Github branches in this workspace:
 
-### int/testapp-with-lcp
+### `int/testapp-with-lcp`
 You pick this branch if are an integrator and you would like to get started with the R2 Testapp supporting LCP. 
 
 ### Prerequisite
-- install/update [Carthage](https://github.com/Carthage/Carthage)
-- install/update [Carting](https://github.com/artemnovichkov/Carting) 
-- Xcode 11.x
+- install/update [Carthage](https://github.com/Carthage/Carthage) 0.38+
+- Xcode 12.x
 - Swift 5.3
 
 ### Setup your workspace
 
-1. git clone --recurse-submodules -b int/testapp-with-lcp  https://github.com/readium/r2-workspace-swift.git r2-workspace-swift
-2. **contact EDRLab for lcplib info**
-3. run **carthage update --platform ios** on r2-testapp-swift
-4. run **carting update** on r2-testapp-swift
-5. open **r2-workspace-swift.xcworkspace**
-6. run target **r2-testapp-swift (carthage-with-lcp)**
-
-**Cartfile should look like this:**
-
-```
-github "readium/r2-shared-swift" == ?.?.?
-github "readium/r2-streamer-swift" == ?.?.?
-github "readium/r2-navigator-swift" == ?.?.?
-github "readium/readium-opds-swift" == ?.?.?
-github "weichsel/ZIPFoundation" == 0.9.8
-github "onevcat/Kingfisher" == 4.10.1
-github "jdg/MBProgressHUD"
-github "stephencelis/SQLite.swift" == 0.11.5
-github "tadija/AEXML" == 4.3.3
-github "swisspol/GCDWebServer" == 3.5.2
-github "krzyzanowskim/CryptoSwift" == 0.15.0
-github "cezheng/Fuzi" == 2.2.1
-github "dexman/Minizip"
-```
-- [weichsel/ZIPFoundation](https://github.com/weichsel/ZIPFoundation) used in [ReadiumLCP](https://github.com/readium/r2-lcp-swift)
-- [onevcat/Kingfisher](https://github.com/onevcat/Kingfisher) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift)
-- [jdg/MBProgressHUD](https://github.com/jdg/MBProgressHUD) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift)
-- [stephencelis/SQLite.swift](https://github.com/stephencelis/SQLite.swift) used in [R2 Testapp](https://github.com/readium/r2-testapp-swift), [ReadiumLCP](https://github.com/readium/r2-lcp-swift)
-- [tadija/AEXML](https://github.com/tadija/AEXML) used in [R2Streamer](https://github.com/readium/r2-streamer-swift)
-- [swisspol/GCDWebServer](https://github.com/swisspol/GCDWebServer) used in [R2Streamer](https://github.com/readium/r2-streamer-swift)
-- [krzyzanowskim/CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) used in [ReadiumLCP](https://github.com/readium/r2-lcp-swift), [R2Streamer](/readium/r2-streamer-swift)
-- [cezheng/Fuzi](https://github.com/cezheng/Fuzi) used in [ReadiumOPDS](https://github.com/readium/r2-opds-swift), [R2Streamer](https://github.com/readium/r2-streamer-swift)
-- [dexman/Minizip](https://github.com/dexman/Minizip) used in [R2Streamer](https://github.com/readium/r2-streamer-swift)
+1. run `git clone --recurse-submodules -b int/testapp-with-lcp  https://github.com/readium/r2-workspace-swift.git r2-workspace-swift`
+2. **contact [EDRLab](https://www.edrlab.org/contact/) to get the R2LCPClient library**
+    * update `r2-testapp-swift/Cartfile` according to the instructions provided by EDRLab
+3. run `carthage update --use-xcframeworks --platform ios` in `r2-testapp-swift/`
+4. open `r2-workspace-swift.xcworkspace`
+5. build target **r2-testapp-swift (carthage-with-lcp)**
 
 
 ## Getting the pre-compiled Readium LCP module.
