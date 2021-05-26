@@ -1,52 +1,40 @@
 # r2-workspace-swift
+
 A workspace for on-boarding developers
 
 This workspace is one of the ways you can get started with the R2 Swift Projects. It is not the only way and you can pick to setup your development environment in the way that best fits your needs.
 
 ### Prerequisite
-- install/update [Carthage](https://github.com/Carthage/Carthage)
-- install/update [Carting](https://github.com/artemnovichkov/Carting) 
-- Xcode 11.x
+
+- install/update [Carthage](https://github.com/Carthage/Carthage) 0.38+
+- Xcode 12.x
 - Swift 5.3
-
-
 
 In this workspace you will find 4 Github branches:
 
-### int/testapp
+### `int/testapp`
 You pick this branch if are an integrator and all you need is to quickly get started with the R2 Testapp. 
 
 [https://github.com/readium/r2-workspace-swift/tree/int/testapp](https://github.com/readium/r2-workspace-swift/tree/int/testapp)
 
-### dev/testapp
+### `dev/testapp`
 You pick this branch if are an developer and a R2 contributor. You can get started quickly on the R2 Testapp and it's modules with this branch. We do appreciate any contribution, no matter how small it is, it makes a difference :) 
 
 [https://github.com/readium/r2-workspace-swift/tree/dev/testapp](https://github.com/readium/r2-workspace-swift/tree/dev/testapp)
 
-### int/testapp-with-lcp
+### `int/testapp-with-lcp`
 You pick this branch if are an integrator and you would like to get started with the R2 Testapp supporting LCP. 
 
 Warning: the content of this branch cannot be built without adding a pre-compiled Readium LCP module. Read below about how you can obtain it.
 
 [https://github.com/readium/r2-workspace-swift/tree/int/testapp-with-lcp](https://github.com/readium/r2-workspace-swift/tree/int/testapp-with-lcp)
+### `dev/testapp-with-lcp`
 
-#### Steps
-
-- Checkout r2-lcp-swift
-- Add the instruction line provided by EDRLab to the r2-lcp-swift Cardfile
-- Run " carthage --use-xcframeworks --platform iOS" on r2-lcp-swift and on your app
-- Open your workspace and add the r2-lcp-swift project to it
-- Add ReadiumLCP and R2LCPFramework as dependencies in your project.
-
-### dev/testapp-with-lcp
 You pick this branch if are an developer and a R2 contributor. You can get started quickly on the R2 Testapp and it's modules including LCP with this branch. We do appreciate any contribution, no matter how small it is, it makes a difference :) 
 
 Warning: the content of this branch cannot be built without adding a pre-compiled Readium LCP module. Read below about how you can obtain it.
 
-See also the integration steps detailed in the previous section. 
-
 [https://github.com/readium/r2-workspace-swift/tree/dev/testapp-with-lcp](https://github.com/readium/r2-workspace-swift/tree/dev/testapp-with-lcp)
-
 
 ## Getting the pre-compiled Readium LCP module.
 
