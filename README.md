@@ -15,7 +15,7 @@ You pick this branch if are an developer and a R2 contributor. You can get start
 
 ### Setup your workspace
 
-1. run `git clone --recurse-submodules -b int/testapp-with-lcp  https://github.com/readium/r2-workspace-swift.git r2-workspace-swift`
+1. run `git clone --recurse-submodules -b dev/testapp-with-lcp  https://github.com/readium/r2-workspace-swift.git r2-workspace-swift`
 2. comment all `readium/r2-*` dependencies in `r2-testapp-swift/Cartfile`
 3. **contact [EDRLab](https://www.edrlab.org/contact/) to get the R2LCPClient library**
     * update `r2-testapp-swift/Cartfile` according to the instructions provided by EDRLab
